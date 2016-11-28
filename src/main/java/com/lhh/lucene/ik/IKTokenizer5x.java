@@ -25,6 +25,7 @@ public class IKTokenizer5x extends Tokenizer {
     }
 
     public IKTokenizer5x(boolean useSmart) {
+    	
         this._IKImplement = new IKSegmenter(this.input, useSmart);
     }
 
@@ -32,11 +33,16 @@ public class IKTokenizer5x extends Tokenizer {
         super(factory);
         this._IKImplement = new IKSegmenter(this.input, true);
     }
-
+    
+    int i = 0;
     public boolean incrementToken() throws IOException {
         this.clearAttributes();
         Lexeme nextLexeme = this._IKImplement.next();
+        if( i++ == 1 ){
+        	nextLexeme = this._IKImplement.next();//从这里过滤不需要分词的内容
+        }
         if(nextLexeme != null) {
+        	System.out.println(nextLexeme.getLexemeText());
             this.termAtt.append(nextLexeme.getLexemeText());
             this.termAtt.setLength(nextLexeme.getLength());
             this.offsetAtt.setOffset(nextLexeme.getBeginPosition(), nextLexeme.getEndPosition());
