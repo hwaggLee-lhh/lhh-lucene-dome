@@ -8,7 +8,7 @@ import org.apache.lucene.util.AttributeFactory;
   
 /**
  * 工厂类的作用就是产生分词器类的实例。
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月1日
  */
 public class SuffixTokenizerFactory extends TokenizerFactory {  

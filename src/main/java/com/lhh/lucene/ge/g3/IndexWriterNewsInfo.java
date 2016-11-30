@@ -20,7 +20,7 @@ import com.lhh.utils.JdbcNsanbanUtils;
 
 /**
  * 新闻索引生成
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月1日
  * @addresss：http://www.cnblogs.com/yinpeng186/archive/2011/09/16/2178259.html
  */

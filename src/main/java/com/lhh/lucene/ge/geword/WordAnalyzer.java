@@ -11,7 +11,7 @@ import com.lhh.utils.LuceneTokenUtils;
 /**
  * 单个单词分词器
  * 
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月8日
  */
 public class WordAnalyzer extends Analyzer {

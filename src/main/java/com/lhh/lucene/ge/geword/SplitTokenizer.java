@@ -9,7 +9,7 @@ import org.apache.lucene.util.AttributeFactory;
 /**
  * 按字符拆分 Tokenizer
  * 
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月9日
  */
 public class SplitTokenizer extends CharTokenizer {

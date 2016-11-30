@@ -10,7 +10,7 @@ import org.apache.lucene.analysis.util.FilteringTokenFilter;
 
 /**
  * 处理分词过滤器
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年10月12日
  */
 public class CustomFilter extends FilteringTokenFilter{

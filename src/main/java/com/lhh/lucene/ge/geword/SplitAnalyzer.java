@@ -10,7 +10,7 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 /**
  * 自定义单个char字符分词器
  * 
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月9日
  */
 public class SplitAnalyzer extends Analyzer {

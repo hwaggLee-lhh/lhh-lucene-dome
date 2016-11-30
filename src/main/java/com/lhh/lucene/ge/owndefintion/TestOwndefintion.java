@@ -6,7 +6,7 @@ import com.lhh.lucene.analysis.analyzer.CustomAnalyzer;
 
 /**
  * 自定义词典
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月4日
  */
 public class TestOwndefintion {

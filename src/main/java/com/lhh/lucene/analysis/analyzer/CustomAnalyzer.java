@@ -15,7 +15,7 @@ import com.lhh.lucene.analysis.analyzer.filter.CustomFilter;
 
 /**
  * 自定义分词器
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年10月12日
  */
 public class CustomAnalyzer extends Analyzer{

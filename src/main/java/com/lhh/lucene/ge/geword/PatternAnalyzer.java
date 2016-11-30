@@ -12,7 +12,7 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
 /**
  * 正则表达式去分词
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月9日
  */
 public class PatternAnalyzer extends Analyzer {

@@ -8,7 +8,7 @@ import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 
 /**
  * 单个分词分裂
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月8日
  */
 public class WordTokenizer extends Tokenizer {

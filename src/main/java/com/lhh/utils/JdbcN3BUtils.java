@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * 恒生聚源DB
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年10月24日
  */
 public class JdbcN3BUtils {// 数据库用户名

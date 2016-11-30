@@ -16,7 +16,7 @@ import org.apache.lucene.analysis.tokenattributes.TypeAttribute;
 
 /**
  * 分词分析器解析
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年10月12日
  */
 public class AnalyzerTokenUtils {

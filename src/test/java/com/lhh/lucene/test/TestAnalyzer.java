@@ -13,7 +13,7 @@ import com.lhh.lucene.analysis.analyzer.token.AnalyzerTokenUtils;
 
 /**
  * 测试 分词
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月1日
  */
 public class TestAnalyzer extends TestCase{

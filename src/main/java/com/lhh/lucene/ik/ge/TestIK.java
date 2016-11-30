@@ -29,7 +29,7 @@ import com.lhh.lucene.analysis.query.TestBaseQuery;
 
 /**
  * IK分词测试
- * @author lhh
+ * @author hwaggLee
  * @createDate 2016年11月7日
  */
 public class TestIK {
